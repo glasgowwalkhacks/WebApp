@@ -19,6 +19,6 @@ class Walks_model extends MY_Model
 				left join postcodes on postcodes.postcode = walks.postcode
 				WHERE distance >= ".$distance;
 
-		return $ci->database->query($qry)->row();
+		return $ci->db->query($qry)->row();
     }
 }
