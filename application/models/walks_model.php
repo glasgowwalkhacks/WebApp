@@ -19,7 +19,7 @@ class Walks_model extends MY_Model
 				FROM `walks`
 				left join postcodes on postcodes.postcode = walks.postcode
 				WHERE (((acos(sin((".$latitude."*pi()/180)) * sin((`lat`*pi()/180))+cos((".$latitude."*pi()/180)) * cos((`lat`*pi()/180)) * cos(((".$longitude."- `lng`)*pi()/180))))*180/pi())*60*1.1515) <= ".$distance." 
-                order by (((acos(sin((".$latitude."*pi()/180)) * sin((`lat`*pi()/180))+cos((".$latitude."*pi()/180)) * cos((`lat`*pi()/180)) * cos(((".$longitude."- `lng`)*pi()/180))))*180/pi())*60*1.1515) asc;
+                order by (((acos(sin((".$latitude."*pi()/180)) * sin((`lat`*pi()/180))+cos((".$latitude."*pi()/180)) * cos((`lat`*pi()/180)) * cos(((".$longitude."- `lng`)*pi()/180))))*180/pi())*60*1.1515) asc";
 
 		return $ci->db->query($qry)->row();
     }
