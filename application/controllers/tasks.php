@@ -33,7 +33,7 @@ class Tasks extends CI_Controller {
 				'meet-address-1' => $data[14],
 				'meet-address-2' => $data[15],
 				'town' => $data[16],
-				'postcode' => $data[17],
+				'postcode' => str_replace(' ' , '', $data[17]),
 				'uprn' => $data[18]
 			);
 
