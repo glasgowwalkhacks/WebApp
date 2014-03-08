@@ -48,9 +48,9 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'glasgowhacks.heloo.net';
+$db['default']['hostname'] = 'heloo.net';
 $db['default']['username'] = 'glasgoww_hacks';
-$db['default']['password'] = '98wyv394';
+$db['default']['password'] = '98wyv394123';
 $db['default']['database'] = 'glasgoww_hacks';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
