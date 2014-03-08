@@ -48,10 +48,10 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = 'localhost';
-$db['default']['username'] = '';
-$db['default']['password'] = '';
-$db['default']['database'] = '';
+$db['default']['hostname'] = 'glasgowhacks.heloo.net';
+$db['default']['username'] = 'glasgoww_hacks';
+$db['default']['password'] = '98wyv394';
+$db['default']['database'] = 'glasgoww_hacks';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;
