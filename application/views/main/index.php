@@ -12,6 +12,7 @@
 
 			<label id="lbl_postcode" text="Postcode">Where are you now?:</label> <span class="hint">Please enter your postcode</span><br />
 			<input class="form-control" id="txt_postcode" name="txt_postcode" placeholder="G51 2SN" />
+			<br />
 			<button type="submit" style="display:inline;" class="pull-right btn btn-default" id="use-geo">Try to use my browser...</button>
 			<br />
 
