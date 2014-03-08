@@ -40,7 +40,7 @@
 
 $route['default_controller'] = "welcome";
 
-$route['search/(.*)'] = "search/$1";
+$route['search/(.*)'] = "search/index/$1";
 $route['search'] = "search";
 
 $route['processdata/walks'] = "tasks/processwalks";
