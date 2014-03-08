@@ -40,6 +40,9 @@
 
 $route['default_controller'] = "welcome";
 
+$route['search/(.*)'] = "search/$1";
+$route['search'] = "search";
+
 $route['processdata/walks'] = "tasks/processwalks";
 $route['404_override'] = '';
 
