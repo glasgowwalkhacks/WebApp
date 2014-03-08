@@ -39,6 +39,8 @@
 */
 
 $route['default_controller'] = "welcome";
+
+$route['processdata/walks'] = "tasks/processwalks";
 $route['404_override'] = '';
 
 
