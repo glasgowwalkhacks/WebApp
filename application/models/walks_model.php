@@ -9,7 +9,7 @@ class Walks_model extends MY_Model
     	$postcode = $ci->postcodes_model->get($postcode);
     	if($postcode) {
     		$latitude = $postcode->lat;
-    		$longitude = $postode->lng;
+    		$longitude = $postcode->lng;
     	} else {
     		return false;
     	}
@@ -19,6 +19,6 @@ class Walks_model extends MY_Model
 				left join postcodes on postcodes.postcode = walks.postcode
 				WHERE distance >= ".$distance;
 
-		return $this->database->query($qry)->row();
+		return $ci->database->query($qry)->row();
     }
 }
