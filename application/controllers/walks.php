@@ -8,8 +8,18 @@ class Walks extends CI_Controller {
 		$walkId = $walkData[0];
 
 		$this->load->model('walks_model');
+		$this->load->model('postcodes_model');
+		$this->load->model('eatingplaces_model');
 
-		$walk = $this->walks_model->get($walkId);
+		$this->viewData = array();
+
+		$this->viewData['walk'] = $this->walks_model->get($walkId);
+		$this->viewData['postcode'] = $this->postcodes_model->get($this->viewData['walk']->postcode);
+		$this->viewData['nearby'] = $this->eatingplaces_model->getPlacesFromPostcode($this->viewData['postcode']->lat, $this->viewData['postcode']->lng);
+
+		$viewData['main_view'] = $this->load->view('walks/walk', $this->viewData, true);
+
+		$this->load->view('common/app', $viewData);
 	}
 }
 

@@ -17,6 +17,10 @@
     <!-- Custom styles for this template -->
     <link href="jumbotron.css" rel="stylesheet">
 
+    <script>
+      var baseurl = '<?=base_url();?>';
+    </script>
+
     <!-- Just for debugging purposes. Don't actually copy this line! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
 
@@ -38,10 +42,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Walking Routes & Awesome Hacks</a>
+          <a class="navbar-brand" href="<?=base_url();?>">Walking Routes & Awesome Hacks</a>
         </div>
-        <div class="navbar-collapse collapse">
-        </div><!--/.navbar-collapse -->
       </div>
     </div>
 

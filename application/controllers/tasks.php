@@ -40,6 +40,32 @@ class Tasks extends CI_Controller {
 			$this->walks_model->insert($data);
 		}
 	}
+
+	public function processfoods() {
+		$handle = fopen(dirname(__FILE__)."/../../data/food.csv",'r') or die();
+
+		$data = fgetcsv($handle);
+
+		$this->load->model('eatingplaces_model');
+
+		while ( ($data = fgetcsv($handle) ) !== FALSE ) {
+			$data = array(
+				'ExtractDate' => $data[0],
+				'FHRSID' => $data[1],
+				'BusinessName' => $data[2],
+				'BusinessType' => $data[3],
+				'BusinessTypeID' => $data[4],
+				'AddressLine2' => $data[5],
+				'AddressLine3' => $data[6],
+				'PostCode' => $data[7],
+				'RatingDate' => $data[8],
+				'Longitude' => $data[9],
+				'Latitude' => $data[10],
+			);
+
+			$this->eatingplaces_model->insert($data);
+		}
+	}
 }
 
 /* End of file tasks.php */

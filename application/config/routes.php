@@ -43,7 +43,10 @@ $route['default_controller'] = "welcome";
 $route['search/(.*)'] = "search/index/$1";
 $route['search'] = "search";
 
+$route['walks/(.*)'] = "walks/index/$1";
+
 $route['processdata/walks'] = "tasks/processwalks";
+$route['processdata/food'] = "tasks/processfoods";
 $route['404_override'] = '';
 
 
