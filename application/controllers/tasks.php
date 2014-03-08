@@ -42,5 +42,5 @@ class Tasks extends CI_Controller {
 	}
 }
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+/* End of file tasks.php */
+/* Location: ./application/controllers/tasks.php */
