@@ -21,6 +21,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->model('postcodes_model');
 		$postcode = $this->postcodes_model->get('G511PQ');
+		
 		var_dump($postcode);
 
 		//$this->load->view('welcome_message');
