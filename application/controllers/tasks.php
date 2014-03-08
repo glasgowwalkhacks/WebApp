@@ -8,7 +8,7 @@ class Tasks extends CI_Controller {
 	}
 
 	public function processwalks() {
-		$handle = fopen(dirname(__FILE__)."../../data/walks.csv",'r') or die();
+		$handle = fopen(dirname(__FILE__)."/../../data/walks.csv",'r') or die();
 
 		$data = fgetcsv($handle);
 
