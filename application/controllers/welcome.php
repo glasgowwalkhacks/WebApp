@@ -19,12 +19,11 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->model('postcodes_model');
-		$postcode = $this->postcodes_model->get('G511PQ');
-		
-		var_dump($postcode);
+		$viewData = array();
 
-		//$this->load->view('welcome_message');
+		$viewData['main_view'] = $this->load->view('main/index', '', true);
+
+		$this->load->view('common/app', $viewData);
 	}
 }
 
