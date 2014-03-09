@@ -48,7 +48,7 @@
     <div class="col-md-4">
       <h2>About Rewired State</h2>
       <p> Rewired State designs and creates hack events that bring creative developers and industry experts together to solve real-world problems. We are always passionate, always creative and eager to provide solutions to your problems.  Talk to us today to see how we can help you.</p>
-	  <p>To find out about more about Rewired State and future Hacks, visit <a href="rewiredstate.org">Rewired State</a>. To find more open data released by Glasgow City Council, visit <a href="http://data.glasgow.gov.uk/">data.glasgow.gov.uk</a></p>
+	  <p>To find out more about Rewired State and future Hacks, visit <a href="rewiredstate.org">Rewired State</a>. To find more open data released by Glasgow City Council, visit <a href="http://data.glasgow.gov.uk/">data.glasgow.gov.uk</a></p>
     </div>
   </div>
 </div>
