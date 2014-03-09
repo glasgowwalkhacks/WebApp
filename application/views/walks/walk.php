@@ -10,6 +10,7 @@
   <li class="active"><a href="#results" data-toggle="tab" class="nav nav-tabs nav-justified">Walk Information</a></li>
   <li><a href="#contact" data-toggle="tab" class="nav nav-tabs nav-justified">Contact Information</a></li>
   <li><a href="#mashup" data-toggle="tab" class="nav nav-tabs nav-justified">While I'm There</a></li>
+  <li><a href="#cycling" data-toggle="tab" class="nav nav-tabs nav-justified">Cycling Routes</a></li>
 </ul>
 
 <!-- Tab panes -->
@@ -90,6 +91,14 @@
   		</tr>
   		<?php endforeach; ?>
   	</table>
+  </div>
+
+
+
+  <div class="tab-pane" id="cycling">
+    <h2>Cycle Routes</h2>
+
+    <iframe border="0" width="100%" height="300px" src="http://www.opencyclemap.org/?zoom=13&lat=<?=$postcode->lat?>&lon=<?=$postcode->lng?>&layers=B000"></iframe>
   </div>
 
   </div>
