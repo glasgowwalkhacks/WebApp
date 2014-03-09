@@ -1,0 +1,20 @@
+16:11 <@automatical> [0]  coordinator-name :: Walk Glasgow Coordinator Name
+16:11 <@automatical> [1]  coordinator-phone :: Walk Glasgow Coordinator Telephone
+16:11 <@automatical> [2]  coordinator-email :: Walk Glasgow Coordinator Email
+16:11 <@automatical> [3]  walk-webpage :: Health Walks Webpage
+16:11 <@automatical> [4]  local-network-area :: Local Network Area
+16:11 <@automatical> [5]  local-network-enquiries :: Enquiries Local Network
+16:11 <@automatical> [6]  local-network-phone :: Local Network Enquiries Telephone
+16:11 <@automatical> [7]  local-network-email :: Local Network Enquiries Email
+16:11 <@automatical> [8]  id :: Walk ID 
+16:11 <@automatical> [9]  walk-name :: Walk Name
+16:11 <@automatical> [10] walk-day :: Walk Day
+16:11 <@automatical> [11] walk-time :: Walk Time
+16:11 <@automatical> [12] meeting-frequency :: Meeting Frequency
+16:11 <@automatical> [13] meet-point :: Meet Point
+16:11 <@automatical> [14] meet-address-1 :: Meet Address 1
+16:11 <@automatical> [15] meet-address-2 :: Meet Address 2
+16:11 <@automatical> [16] town :: Town
+16:11 <@automatical> [17] postcode :: Postcode
+16:11 <@automatical> [18] uprn :: UPRN
+kenny@hello.net
