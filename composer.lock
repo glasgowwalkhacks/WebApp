@@ -1,0 +1,67 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+    ],
+    "hash": "15f72240e9b2824a526db5a957a86d4b",
+    "packages": [
+        {
+            "name": "hisamu/php-xbase",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hisamu/php-xbase.git",
+                "reference": "dd1e8fdbc653eddeba697b160ef6df94a4a81e12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hisamu/php-xbase/zipball/dd1e8fdbc653eddeba697b160ef6df94a4a81e12",
+                "reference": "dd1e8fdbc653eddeba697b160ef6df94a4a81e12",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "XBase": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Luã de Souza",
+                    "email": "lsouza@tapronto.com.br"
+                },
+                {
+                    "name": "Erwin Kooi",
+                    "email": "info@cyane.nl"
+                }
+            ],
+            "description": "A simple parser for *.dbf files using PHP",
+            "homepage": "https://github.com/hisamu/php-xbase",
+            "keywords": [
+                "dbase",
+                "foxpro"
+            ],
+            "time": "2013-07-22 21:53:54"
+        }
+    ],
+    "packages-dev": [
+
+    ],
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "hisamu/php-xbase": 20
+    },
+    "platform": [
+
+    ],
+    "platform-dev": [
+
+    ]
+}
