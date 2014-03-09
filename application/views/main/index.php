@@ -1,7 +1,7 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <form id="postcode_data_gather" method="post" action="<?=base_url()?>search/">
-			
+	-	+	
 			<br /><br />
 
 			<?php if(isset($_GET['no_postcode'])) : ?>
@@ -40,17 +40,15 @@
     <div class="col-md-4">
       <h2>Glasgow Walks</h2>
       <p>Welcome to Glasgow walks, a site to plan walks within Glasgow city. Enter in your postcode in the top box and select how far you would like to walk. If you are already out and about hit the "Find me..." and you will be shown the closest walks to where you are.</p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
     </div>
     <div class="col-md-4">
       <h2>About Glasgow Walks</h2>
       <p>Glasgow Walks was build in a weekend using open data published by the Glasgow Council. To view the data we have used and find ways to make it empower your life, go to <a href="http://data.glasgow.gov.uk/dataset/health-walks/resource/aa0c2e22-cad5-45fb-aeb7-350d0532344b"> Glasgow Health Walks.</a></p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
-   </div>
+    </div>
     <div class="col-md-4">
       <h2>About Rewired State</h2>
-      <p>To find much more open data released by Glasgow City Council, visit <a href="http://data.glasgow.gov.uk/">data.glasgow.gov.uk</a></p>
-      <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+      <p> Rewired State designs and creates hack events that bring creative developers and industry experts together to solve real-world problems. We are always passionate, always creative and eager to provide solutions to your problems.  Talk to us today to see how we can help you.</p>
+	  <p>To find out about more about Rewired State and future Hacks, visit <a href="rewiredstate.org">Rewired State</a>. To find more open data released by Glasgow City Council, visit <a href="http://data.glasgow.gov.uk/">data.glasgow.gov.uk</a></p>
     </div>
   </div>
 </div>
