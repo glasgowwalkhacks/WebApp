@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'heloo.net';
 $db['default']['username'] = 'glasgoww_hacks';
-$db['default']['password'] = '98wyv394123';
+$db['default']['password'] = '<<yer no gettin\' it!>>';
 $db['default']['database'] = 'glasgoww_hacks';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
