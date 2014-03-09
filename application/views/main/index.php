@@ -1,7 +1,6 @@
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
   <form id="postcode_data_gather" method="post" action="<?=base_url()?>search/">
-			
 			<br /><br />
 
 			<?php if(isset($_GET['no_postcode'])) : ?>
@@ -44,10 +43,12 @@
     <div class="col-md-4">
       <h2>About Glasgow Walks</h2>
       <p>Glasgow Walks was build in a weekend using open data published by the Glasgow Council. To view the data we have used and find ways to make it empower your life, go to <a href="http://data.glasgow.gov.uk/dataset/health-walks/resource/aa0c2e22-cad5-45fb-aeb7-350d0532344b"> Glasgow Health Walks.</a></p>
-   </div>
+
+    </div>
     <div class="col-md-4">
       <h2>About Rewired State</h2>
-      <p>To find much more open data released by Glasgow City Council, visit <a href="http://data.glasgow.gov.uk/">data.glasgow.gov.uk</a></p>
+      <p> Rewired State designs and creates hack events that bring creative developers and industry experts together to solve real-world problems. We are always passionate, always creative and eager to provide solutions to your problems.  Talk to us today to see how we can help you.</p>
+	  <p>To find out more about Rewired State and future Hacks, visit <a href="rewiredstate.org">Rewired State</a>. To find more open data released by Glasgow City Council, visit <a href="http://data.glasgow.gov.uk/">data.glasgow.gov.uk</a></p>
     </div>
   </div>
 </div>
