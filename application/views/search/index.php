@@ -15,6 +15,7 @@
 		  <div class="col-md-4">
 		  	<h4><em><?=round($result['distance'], 2)?>km away from you just now.</em></h4>
 		  	<p>Meeting at: <br /><strong><?=$result['meet-point']?>, <?=$result['meet-address-1'];?></strong></p>
+		  	<!--<p><?=$result['lat']?>,<?=$result['lng']?></p>-->
 		  </div>
 		</div>
 		<div class="row">

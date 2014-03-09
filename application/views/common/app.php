@@ -36,9 +36,6 @@
     <!-- Bootstrap core CSS -->
     <link href="<?=base_url()?>assets/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="jumbotron.css" rel="stylesheet">
-
     <script>
       var baseurl = '<?=base_url();?>';
     </script>

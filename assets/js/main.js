@@ -14,8 +14,14 @@ $('#use-geo').click(function(event) {
 	getLocation();
 });
 
+$(document).ready(function() {
+	getLocation();
+});
+
 function getLocation()
 {
+	$('#use-geo').html("Trying to get your location...");
+
 	if (navigator.geolocation)
 	{
 		navigator.geolocation.getCurrentPosition(showPosition,showError);
@@ -35,12 +41,16 @@ function showPosition(position)
 	
 	$.ajax({
 	  url: url,
+	  async: false
 	}).done(function(data) {
 	  $('#txt_postcode').val(data.postcode);
 	});
+
+	$('#use-geo').html("Find me...");
 }
 
 function showError(error)
 {
 	alert("Sorry, I can't get that to work.");
+	$('#use-geo').html("Sorry, I can't get that to work.");
 }
